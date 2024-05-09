@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+import numpy
+
+def generate_random_sequence(n_elements, shape):
+    vectors = []
+    for _i_ in range(n_elements):
+        vectors.append(numpy.eye(shape)[numpy.random.choice(range(shape))])
+
+    return vectors
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>random sequence</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

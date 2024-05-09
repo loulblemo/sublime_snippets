@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+import tensorflow as tf
+
+init = tf.constant(numpy.asarray([[1, 2, 1], [2, 1, 2], [2, 2, 1]]))
+x = tf.get_variable('var_name', initializer=init)
+
+y = ${2:tf.ones((10,))}
+init_op = tf.global_variables_initializer()
+sess = tf.Session()
+sess.run(init_op)
+x_out, y_out = sess.run([x, y], ${3:feed_dict={}})
+
+]]></content>
+    <tabTrigger>tensorflow x y</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

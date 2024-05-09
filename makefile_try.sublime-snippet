@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+try: os.mkdir(${1:output_folder})
+except: pass
+]]></content>
+    <tabTrigger>makefile try</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

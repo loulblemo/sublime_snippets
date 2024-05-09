@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+splitted_vec = np.split(v, np.cumsum(vector_lengths))[:-1]
+tuples.append([np.where(x)[0] for x in splitted_vec])
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vector split</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

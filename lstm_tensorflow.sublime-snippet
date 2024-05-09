@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+import tensorflow as tf
+import numpy
+
+sequence_length = 128
+vector_size = 88
+n_hidden = 100
+n_output = 88
+
+input_sequence = tf.placeholder(tf.float32, shape=[None, sequence_length, vector_size], name="input_sequence")
+
+cell = tf.nn.rnn_cell.LSTMCell(num_units=n_hidden, state_is_tuple=True)
+
+rnn_outputs, last_states = tf.nn.dynamic_rnn(
+    cell=cell,
+    dtype=tf.float32,
+    inputs=input_sequence)
+
+dense_outputs = tf.layers.dense(rnn_outputs, units=n_output, activation=tf.nn.sigmoid)
+
+init_op = tf.global_variables_initializer()
+sess = tf.Session()
+sess.run(init_op)
+dense_outputs = sess.run([dense_outputs], feed_dict={input_sequence: numpy.ones([10, 128, 88])})
+
+print dense_outputs[0].shape
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>lstm_tensorflow</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+import os
+def replace_ext(filename, ext): return os.path.splitext(filename)[0]+ext
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>extension replace</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

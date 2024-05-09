@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+numpy.savetxt(os.path.join(${1:output_folder}, ${2:filename}), ${3:vector}, delimiter=' ', newline='\n', ${4:fmt='%i'})
+]]></content>
+    <tabTrigger>numpy.savetxt</tabTrigger>
+</snippet>

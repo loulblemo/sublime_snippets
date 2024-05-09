@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+import json
+import os
+${1:settings_file = os.path.join(, 'settings.json')}
+json.load(open(${2:settings_file}, 'rb'))
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>json load</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

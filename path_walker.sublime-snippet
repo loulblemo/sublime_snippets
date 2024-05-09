@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import os
+import sys
+
+for root, dirnames, filenames in os.walk(sys.argv[1]):
+    for filename in filenames:
+        print filename
+        filepath = os.path.join(root, filename)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>files walk</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
+
+
+

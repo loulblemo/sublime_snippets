@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+from __future__ import division
+import numpy as np
+def norm(x): return (x - np.min(x)) / (np.max(x) - np.min(x))
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>normalise my</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
