@@ -2,6 +2,7 @@
     <content><![CDATA[
 try: os.mkdir(${1:output_folder})
 except: pass
-]]></content>   <tabTrigger>makefile try</tabTrigger>
+]]></content>   
+    <tabTrigger>makefile try</tabTrigger>
     <scope>source.python</scope>
 </snippet>

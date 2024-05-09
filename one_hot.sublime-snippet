@@ -3,5 +3,5 @@
 numpy.eye(size)[index]
 ]]></content>   
     <tabTrigger>one hot oneliner</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

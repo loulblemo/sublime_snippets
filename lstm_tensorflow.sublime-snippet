@@ -1,4 +1,5 @@
 <snippet>
+    <!-- A very naive code for a tensorflow lstm -->
     <content><![CDATA[
 import tensorflow as tf
 import numpy

@@ -3,5 +3,5 @@
 [element for sublist in list_of_lists for element in sublist]
 ]]></content>   
     <tabTrigger>nested for list of lists</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

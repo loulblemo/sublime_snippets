@@ -9,7 +9,7 @@ for root, dirnames, filenames in os.walk(sys.argv[1]):
         filepath = os.path.join(root, filename)
 ]]></content>   
     <tabTrigger>files walk</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>
 
 

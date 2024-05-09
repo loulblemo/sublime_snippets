@@ -12,6 +12,7 @@ for f in files:
     for v in vectors:
         ${4:print v}
 
-]]></content>   <tabTrigger>numpy loadtxt</tabTrigger>
+]]></content>   
+    <tabTrigger>numpy loadtxt</tabTrigger>
     <scope>source.python</scope>
 </snippet>

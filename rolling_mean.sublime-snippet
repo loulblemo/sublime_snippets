@@ -6,5 +6,5 @@ def rolling_mean(a, window):
     return list(np.squeeze(pd.stats.moments.rolling_mean(pd.DataFrame(a), window).values))
 ]]></content>   
     <tabTrigger>moving average</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

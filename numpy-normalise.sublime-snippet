@@ -3,5 +3,5 @@
 def norm(x): return x / numpy.linalg.norm(x)
 ]]></content>   
     <tabTrigger>normalise numpy</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

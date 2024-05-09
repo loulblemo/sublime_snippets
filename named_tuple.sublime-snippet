@@ -3,5 +3,5 @@
 Point = namedtuple('Point', ['x', 'y'], verbose=True)
 ]]></content>   
     <tabTrigger>namedtuple</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

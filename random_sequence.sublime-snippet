@@ -10,5 +10,5 @@ def generate_random_sequence(n_elements, shape):
     return vectors
 ]]></content>   
     <tabTrigger>random sequence</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

@@ -3,5 +3,5 @@
 import pdb; pdb.set_trace()
 ]]></content>   
     <tabTrigger>pdb</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

@@ -2,6 +2,6 @@
     <content><![CDATA[
 print '\033[92m' + str(e) + '\033[0m'
 ]]></content>   
-    <tabTrigger>print green</tabTrigger> -->
-    <!-- <scope>source.python</scope> -->
+    <tabTrigger>print green</tabTrigger>
+    <scope>source.python</scope>
 </snippet>

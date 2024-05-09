@@ -3,5 +3,5 @@
 [list(l) for l in numpy.split(sample, numpy.cumsum([5, 10, 5]))[:-1]]
 ]]></content>   
     <tabTrigger>split numpy</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

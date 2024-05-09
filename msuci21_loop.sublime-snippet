@@ -12,6 +12,7 @@ for f in files:
     for ${5:element} in score.${4:elements}:
         print ${5:element}
 
-]]></content>   <tabTrigger>music21 for</tabTrigger>
+]]></content>   
+    <tabTrigger>music21 for</tabTrigger>
     <scope>source.python</scope>
 </snippet>

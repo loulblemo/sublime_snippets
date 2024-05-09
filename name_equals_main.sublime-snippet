@@ -3,5 +3,5 @@
 if __name__ == "__main__":
 ]]></content>   
     <tabTrigger>main</tabTrigger>
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>
