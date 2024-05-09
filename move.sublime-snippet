@@ -3,7 +3,6 @@
 import os
 import shutil
 shutil.move(${1:os.path.join(f)}, ${2:os.path.join(destination, os.path.basename(f))})
-]]></content>
-    <tabTrigger>move</tabTrigger>
+]]></content>   <tabTrigger>move</tabTrigger>
     <scope>source.python</scope>
 </snippet>

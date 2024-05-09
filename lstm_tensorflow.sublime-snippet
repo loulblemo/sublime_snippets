@@ -25,9 +25,7 @@ sess.run(init_op)
 dense_outputs = sess.run([dense_outputs], feed_dict={input_sequence: numpy.ones([10, 128, 88])})
 
 print dense_outputs[0].shape
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+]]></content>   
     <tabTrigger>lstm_tensorflow</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>

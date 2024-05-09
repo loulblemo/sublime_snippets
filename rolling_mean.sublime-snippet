@@ -4,9 +4,7 @@ import pandas as pd
 import numpy as np
 def rolling_mean(a, window):
     return list(np.squeeze(pd.stats.moments.rolling_mean(pd.DataFrame(a), window).values))
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+]]></content>   
     <tabTrigger>moving average</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

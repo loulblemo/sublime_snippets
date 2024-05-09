@@ -7,8 +7,6 @@ files = [f for f in glob.glob(os.path.join(${1:folder}, '*')) if os.path.isfile(
 
 for f in files:
     ${2:do something..}
-]]></content>
-    <tabTrigger>files for</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+]]></content>   <tabTrigger>files for</tabTrigger>
     <scope>source.python</scope>
 </snippet>

@@ -9,9 +9,7 @@ plt.plot(x)
 plt.subplot(2, 1, 2)
 plt.plot(y)
 
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+]]></content>   
     <tabTrigger>subplot</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
 </snippet>

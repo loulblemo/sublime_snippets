@@ -3,7 +3,6 @@
 def multi_softmax(softmax_input, lens):
     return tf.concat([tf.layers.dense(softmax_input, units=l, activation=tf.nn.softmax, name='dense'+str(l)) for l in lens], axis=-1)
 
-]]></content>
-    <tabTrigger>multi softmax</tabTrigger>
+]]></content>   <tabTrigger>multi softmax</tabTrigger>
     <scope>source.python</scope>
 </snippet>

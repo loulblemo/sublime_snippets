@@ -20,8 +20,6 @@ for i in range(10):
     vectors.append(vector)
 
 numpy.savetxt(os.path.join(${3:output_folder, output_file}), numpy.asarray(vectors), delimiter=' ', newline='\n', fmt='%i')
-]]></content>
-    <tabTrigger>numpy savetxt</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+]]></content>   <tabTrigger>numpy savetxt</tabTrigger>
     <scope>source.python</scope>
 </snippet>

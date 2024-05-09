@@ -11,7 +11,6 @@ sess = tf.Session()
 sess.run(init_op)
 x_out, y_out = sess.run([x, y], ${3:feed_dict={}})
 
-]]></content>
-    <tabTrigger>tensorflow x y</tabTrigger>
+]]></content>   <tabTrigger>tensorflow x y</tabTrigger>
     <scope>source.python</scope>
 </snippet>

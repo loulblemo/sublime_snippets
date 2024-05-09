@@ -19,9 +19,7 @@ for f in files:
     # do something
 
     numpy.savetxt(os.path.join(output_folder, os.path.basename(f)), vectors, delimiter=' ', newline='\n', fmt='%i')
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+]]></content>   
     <tabTrigger>manipulate</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>

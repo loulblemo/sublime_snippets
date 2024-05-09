@@ -13,9 +13,7 @@ To use code like this, you can do something like
 
 print bcolors.WARNING + "Warning: warning message"
       + bcolors.ENDC
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+]]></content>   
     <tabTrigger>red text error</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>

@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 plt.imshow(cdist(c1, c2, 'cosine'), aspect='auto', interpolation='nearest')
 plt.colorbar()
 plt.show()
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+]]></content>   
     <tabTrigger>imshow</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>
