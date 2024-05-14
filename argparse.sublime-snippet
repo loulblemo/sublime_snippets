@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+parser = argparse.ArgumentParser(description="My argument parser")
+
+parser.add_argument('--string', '-s', 
+                    dest='string', 
+                    type=str, 
+                    default='stringy',
+                    help="A string")
+
+parser.add_argument('--integer', 
+                    '-i', 
+                    dest='integer', 
+                    type=int, 
+                    default=10,
+                    help="An integer")
+
+parser.add_argument('--boolean', 
+                    '-b',
+                    dest="boolean"
+                    action='store_true'
+                    help="A boolean")
+
+args = parser.parse_args()
+
+args.string
+args.integer
+args.bool
+]]></content>   
+    <tabTrigger>argparse</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
